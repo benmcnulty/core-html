@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.no-js body:before {
+  content: "JavaScript Disabled";
+  display: none;
+}
+
+.js body:before {
+  content: "JavaScript Enabled";
+  display: none;
+}
+
+.example-content {
+  padding: 2rem;
+  background-color: lightblue;
+  color: navy;
+}
+
+.example-content button {
+  background-color: #6cc273;
+  color: black;
+}
+
+/* Dynamic styles */
+body, .light {
+  background-color: #c0c0c0;
+  color: #3a3a3a;
+}
+
+.dark {
+  background-color: #3a3a3a;
+  color: #c0c0c0;
+}
+
+.color {
+  background-color: #c04e3a;
+  color: #c0c0c0;
+}
