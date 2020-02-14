@@ -1,0 +1,28 @@
+{
+  "name": "core-html",
+  "version": "0.0.1",
+  "description": "Core functionality HTML project with linked CSS and JS.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "browser-sync -s -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benmcnulty/core-html.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Ben McNulty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benmcnulty/core-html/issues"
+  },
+  "homepage": "https://github.com/benmcnulty/core-html#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
