@@ -2,10 +2,10 @@
   "name": "core-html",
   "version": "0.0.1",
   "description": "Core functionality HTML project with linked CSS and JS.",
-  "main": "index.html",
+  "main": "docs/index.html",
   "scripts": {
     "start": "npm run serve",
-    "serve": "browser-sync -s -w"
+    "serve": "browser-sync docs -w"
   },
   "repository": {
     "type": "git",
