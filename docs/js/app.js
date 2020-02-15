@@ -11,6 +11,8 @@
   let modeIndex = 0;
   let mode = modes[modeIndex];
   let example_button = document.getElementById("example-button");
+  let button_counter = 0;
+  console.warn("Clicks reset to " + button_counter);
 
   // define functions
   function cycleMode() {
@@ -22,6 +24,8 @@
     }
     mode = modes[modeIndex];
     body.classList.add(mode);
+    button_counter += 1;
+    console.warn("Button Clicks: " + button_counter);
   }
 
   // set defaults

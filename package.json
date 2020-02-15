@@ -5,7 +5,7 @@
   "main": "docs/index.html",
   "scripts": {
     "start": "npm run serve",
-    "serve": "browser-sync docs -w"
+    "serve": "browser-sync docs -w --open external"
   },
   "repository": {
     "type": "git",
